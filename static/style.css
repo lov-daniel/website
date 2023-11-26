@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css?family=Noto Sans JP";
+
+
+/* Styling for general text */
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    font-family: "Noto Sans JP";
+    color: navy;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Noto Sans JP";
+    color: #000;
+    text-align: center;
+  }
+
+/* Styling for general elements */
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* Button Group Div */
+  .buttongroup {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+  }
+
+  .buttongroup button{
+    margin:auto;
+    cursor: pointer;
+
+    font-family: "Noto Sans JP";
+    background-color: #78D97C;
+    color: #000;
+    outline: #000;
+    shape-rendering:auto;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+
+  }
+  .buttongroup button:hover{
+
+    background-color: #3e8e41;
+
+  }
+
+/* Navigation Bar */
+
+  .topnav {
+
+    overflow: hidden;
+  }
+
+  .topnav button {
+    
+    font-family: "Noto Sans JP";
+    background-color: #78D97C;
+    color: #000;
+    outline: #000;
+    shape-rendering:auto;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+  }
+
+  .topnav button:hover {
+
+    background-color: #3e8e41;
+  }
