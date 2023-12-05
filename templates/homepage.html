@@ -3,7 +3,7 @@
 
 <head>
 <!-- Javascript Imports -->
-<script scr="../static/index.js"></script>
+<script src="../static/index.js"> </script>
 
 <!-- CSS Imports -->
 <link rel="stylesheet" href="../static/style.css"> 
@@ -12,7 +12,6 @@
 
 
 <body>
-<script scr="../static/index.js"></script>
 <div class="topnav">
     <button>Home</button>
     <button>About</button>
@@ -32,11 +31,26 @@
     How are you trying to eat?
 </p>
 
+<div id="div1">
+    
+</div>
 
 <div class="buttongroup"> 
-    <button onclick="loseWeight()">To Lose Weight</button>
-    <button onclick="maintainWeight()">To Maintain Weight</button>
-    <button onclick="gainWeight()">To Gain Weight</button> 
+    <button onclick="weightChoice(0)">To Lose Weight</button>
+    <button onclick="weightChoice(1)">To Maintain Weight</button>
+    <button onclick="weightChoice(2)">To Gain Weight</button> 
+</div>
+
+<div class="buttongroup" id="buttongroup2">
+
+    <p>
+        Do any of these apply?
+    </p>
+
+</div>
+
+<div class="checkbox" id="allergies">
+
 </div>
 </body>
 

@@ -30,8 +30,9 @@ body {
 /* Button Group Div */
   .buttongroup {
     margin: auto;
-    width: 25%;
-    padding: 10px;
+    width: fit-content;
+    align-self: auto;
+    padding: 10;
   }
 
   .buttongroup button{
@@ -45,6 +46,8 @@ body {
     shape-rendering:auto;
     display: inline-block;
     border: none;
+    margin: 4px;
+    border-radius: 10px;
     padding: 10px;
 
   }
@@ -52,6 +55,10 @@ body {
 
     background-color: #3e8e41;
 
+  }
+
+  #buttongroup2 {
+    visibility: hidden;
   }
 
 /* Navigation Bar */

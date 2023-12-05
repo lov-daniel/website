@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-debug = False
+debug = True
 
 app = Flask(__name__)
 
